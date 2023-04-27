@@ -1,0 +1,16 @@
+DROP
+DATABASE IF EXISTS Task_6;
+CREATE
+DATABASE IF NOT EXISTS Task_6;
+USE Task_6;
+
+CREATE TABLE IF NOT EXISTS info
+(
+    id      INT AUTO_INCREMENT PRIMARY KEY,
+    fName   VARCHAR(20) NOT NULL,
+    lName   VARCHAR(20) NOT NULL,
+    age     INT         NOT NULL,
+    phone   VARCHAR(15) NOT NULL,
+    address VARCHAR(20) NOT NULL
+    );
+CREATE INDEX fName ON info (fName);

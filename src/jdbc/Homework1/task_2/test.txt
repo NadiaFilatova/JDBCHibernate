@@ -1,0 +1,2 @@
+INSERT INTO info(fName, lName, age, phone, address) VALUES('Sonia', 'Savtshuk', 66, 380963456898, 'Test1');
+INSERT INTO info(fName, lName, age, phone, address) VALUES('Alisa', 'Bondar', 55, 380954623456, 'Test2');
